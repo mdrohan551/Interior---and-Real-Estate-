@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "brand": "Lavish",
+    "brandFull": "Lavish Interiors",
+    "tagline": "Interior design for homes and workplaces across Bangladesh",
+    "phone": "+880 1711 288948",
+    "email": "hello@lavishinteriors.com",
+    "address": "Dhaka and Chittagong, Bangladesh",
+    "founded": 2017,
+    "socials": [
+      { "label": "Facebook", "short": "Fb", "href": "#" },
+      { "label": "Instagram", "short": "Ig", "href": "#" },
+      { "label": "LinkedIn", "short": "In", "href": "#" },
+      { "label": "YouTube", "short": "Yt", "href": "#" }
+    ]
+  },
+  "nav": [
+    { "label": "Home", "href": "/interior" },
+    { "label": "Services", "href": "/interior/services" },
+    { "label": "Portfolio", "href": "/interior/portfolio" },
+    { "label": "About", "href": "/interior/about" },
+    { "label": "Blog", "href": "/interior/blog" }
+  ],
+  "preloader": {
+    "words": ["Elegant", "Interior"],
+    "tone": "stone",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80&auto=format&fit=crop"
+  },
+  "hero": {
+    "agency": "Interior Design Agency",
+    "agencyText": "Calm, light-filled interiors with considered materials, built around the way you live and work.",
+    "titleLines": ["Contemporary Elegant", "Interior Design"],
+    "cta": "Book Consultation",
+    "secondaryCta": { "label": "View portfolio", "href": "/interior/portfolio" },
+    "image": {
+      "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80&auto=format&fit=crop",
+      "tone": "stone",
+      "alt": "Bright living room with a white sofa and warm brass details"
+    },
+    "team": ["AR", "NS", "MH", "TK"]
+  },
+  "stats": [
+    { "id": "years", "value": 9, "suffix": "+", "label": "Years of experience" },
+    { "id": "projects", "value": 320, "suffix": "+", "label": "Projects delivered" },
+    { "id": "clients", "value": 98, "suffix": "%", "label": "Client satisfaction" },
+    { "id": "cities", "value": 2, "suffix": "", "label": "Cities served" }
+  ],
+  "sections": {
+    "project": { "label": "Our Project", "title": "Transform your space with interiors made for a modern, luxurious lifestyle" },
+    "services": { "label": "Our Services", "title": "What we offer", "more": "See all services" },
+    "portfolio": { "label": "Portfolio", "title": "Explore our latest projects, where innovation meets luxury", "more": "See all projects" },
+    "process": { "label": "How we work", "title": "A clear path from first call to final handover" },
+    "testimonials": { "label": "Testimonials", "title": "What our clients say about working with us" },
+    "blog": { "label": "Journal", "title": "Ideas and guides from our design team", "more": "See all articles" }
+  },
+  "offers": [
+    {
+      "id": "custom",
+      "title": "Custom Interior Design",
+      "text": "Full-room concepts, joinery and furniture drawn for your plan, not picked from a catalogue.",
+      "tags": ["Home", "Office", "Commercial space"],
+      "tone": "stone",
+      "href": "/interior/services/home-interior-design",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "planning",
+      "title": "Consultation and Planning",
+      "text": "Site visit, space planning, mood boards and a fixed budget before any work begins.",
+      "tags": ["Office", "Private home", "Commercial space"],
+      "tone": "sand",
+      "href": "/interior/services/office-interior-design",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "styling",
+      "title": "Styling and Implementation",
+      "text": "Our site team manages vendors, finishes and styling until the space is ready to use.",
+      "tags": ["Villa", "Duplex", "Penthouse"],
+      "tone": "oak",
+      "href": "/interior/services/villa-interior-design",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=900&q=80&auto=format&fit=crop"
+    }
+  ],
+  "services": [
+    {
+      "id": "home", "slug": "home-interior-design", "group": "Residential", "title": "Home Interior Design",
+      "summary": "Apartments and family homes planned around storage, light and daily routines.",
+      "description": "We design complete apartments and family homes, from space planning to the last cushion. Every plan starts with how your household actually moves through the day, then we shape storage, lighting and finishes around it.",
+      "includes": ["Space planning and layout options", "Kitchen, wardrobe and joinery drawings", "Lighting and electrical plan", "Material and furniture selection", "Site supervision and handover"],
+      "tone": "sand",
+      "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "villa", "slug": "villa-interior-design", "group": "Residential", "title": "Villa Interior Design",
+      "summary": "Large-format interiors that connect indoor rooms with gardens and terraces.",
+      "description": "Villas give us room to work with volume, daylight and outdoor views. We design a consistent language across every floor, so the entrance, living areas and bedrooms feel like one home.",
+      "includes": ["Whole-house design concept", "Double-height and staircase features", "Outdoor living and terrace styling", "Bespoke furniture and lighting", "Project management"],
+      "tone": "sage",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "duplex", "slug": "duplex-interior-design", "group": "Residential", "title": "Duplex Interior Design",
+      "summary": "Two-level homes with a staircase, voids and zoning that feel connected.",
+      "description": "A duplex needs a plan for two floors that still feels like one home. We separate quiet and social zones, treat the staircase as a design feature and keep sightlines open between levels.",
+      "includes": ["Zoning across both levels", "Staircase and void design", "Built-in storage on every landing", "Feature lighting", "Full execution"],
+      "tone": "oak",
+      "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "bungalow", "slug": "bungalow-interior-design", "group": "Residential", "title": "Bungalow Interior Design",
+      "summary": "Single-storey living with generous, flowing rooms and strong garden links.",
+      "description": "Bungalows reward a calm, open plan. We focus on circulation, natural ventilation and materials that age well, so the home stays comfortable through every season.",
+      "includes": ["Open-plan living layouts", "Natural ventilation and daylight study", "Veranda and garden-facing rooms", "Custom joinery", "Handover and care guide"],
+      "tone": "clay",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "office", "slug": "office-interior-design", "group": "Commercial", "title": "Office Interior Design",
+      "summary": "Workplaces that support focus, meetings and the way your team really works.",
+      "description": "We design offices around teams, not desks. That means quiet focus areas, flexible meeting rooms, acoustic comfort and a reception that tells clients who you are.",
+      "includes": ["Workplace briefing and space program", "Reception and meeting rooms", "Acoustic and lighting design", "Furniture and branding details", "Fast-track execution"],
+      "tone": "stone",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": "penthouse", "slug": "penthouse-interior-design", "group": "Commercial", "title": "Penthouse Interior Design",
+      "summary": "Top-floor residences and show suites built for views, entertaining and privacy.",
+      "description": "Penthouses are about the view and the way guests move through the space. We frame the skyline, plan entertaining areas and keep private rooms quiet and well separated.",
+      "includes": ["Skyline-led layouts", "Entertaining kitchen and bar design", "Statement lighting and artwork plan", "Premium materials sourcing", "White-glove handover"],
+      "tone": "dusk",
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&q=80&auto=format&fit=crop"
+    }
+  ],
+  "rooms": [
+    { "id": "kitchen", "title": "Kitchen", "text": "Work triangles, deep drawers and durable surfaces that stay good-looking after years of cooking.", "points": ["Modular and custom cabinetry", "Quartz and stone worktops", "Appliance and ventilation planning"], "tone": "sand", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format&fit=crop" },
+    { "id": "bedroom", "title": "Bedroom", "text": "Quiet rooms with layered lighting, soft textures and wardrobes sized to how much you own.", "points": ["Walk-in and fitted wardrobes", "Upholstered headboards", "Bedside and ambient lighting"], "tone": "oak", "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=900&q=80&auto=format&fit=crop" },
+    { "id": "living", "title": "Living room", "text": "Social spaces arranged for conversation, television and the occasional crowd.", "points": ["Feature walls and media units", "Custom sofa layouts", "Curtains, rugs and artwork"], "tone": "stone", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80&auto=format&fit=crop" },
+    { "id": "bathroom", "title": "Bathroom", "text": "Water-safe materials, clean lines and storage that keeps surfaces clear.", "points": ["Wet and dry zoning", "Vanity and mirror design", "Tile and fixture selection"], "tone": "sage", "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80&auto=format&fit=crop" },
+    { "id": "dining", "title": "Dining room", "text": "Tables, lighting and storage that make family meals and hosting easy.", "points": ["Table and seating selection", "Crockery and display units", "Pendant lighting"], "tone": "clay", "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=900&q=80&auto=format&fit=crop" },
+    { "id": "study", "title": "Study", "text": "Focused rooms for work and reading, with good light and room for books.", "points": ["Built-in desks and shelving", "Task and ambient lighting", "Acoustic comfort"], "tone": "dusk", "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&q=80&auto=format&fit=crop" }
+  ],
+  "process": [
+    { "id": "consult", "step": 1, "title": "Initial Consultation", "text": "We visit the site, listen to your needs and agree on scope, style and budget range." },
+    { "id": "agreement", "step": 2, "title": "Project Agreement", "text": "You receive concepts, drawings and a fixed quotation. Work starts once you approve them." },
+    { "id": "execution", "step": 3, "title": "Project Execution", "text": "Our site team builds, fits and supervises every trade, with regular progress updates." },
+    { "id": "delivery", "step": 4, "title": "Inspection and Delivery", "text": "We inspect each detail with you, fix any snag and hand over a finished, ready-to-use space." }
+  ],
+  "portfolio": {
+    "categories": ["All", "Residential", "Commercial"],
+    "items": [
+      { "id": "p01", "slug": "luxury-modern-living-room", "title": "Luxury Modern Living Room", "category": "Residential", "projectType": "Apartment", "location": "Gulshan, Dhaka", "style": "Modern Contemporary", "areaSqft": 2500, "year": 2025, "tone": "sand", "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80&auto=format&fit=crop", "featured": true, "summary": "A blend of contemporary elegance and comfort, this living room design combines clean lines with warm furniture.", "description": "The brief asked for a calm living space that could host twenty guests and still feel intimate on a quiet evening. We opened the plan, added a fluted wall behind the media unit and layered warm lighting at three heights." },
+      { "id": "p02", "slug": "high-end-tech-startup-office", "title": "High-End Space for a Tech Startup", "category": "Commercial", "projectType": "Office", "location": "Banani, Dhaka", "style": "Minimal Workplace", "areaSqft": 4200, "year": 2025, "tone": "stone", "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80&auto=format&fit=crop", "featured": true, "summary": "A sleek, modern office designed to foster creativity and productivity, with a focus on team comfort.", "description": "For a 40-person team we planned open desks, three focus rooms and a long shared table that doubles as the all-hands space. Acoustic panels and soft lighting keep the room quiet." },
+      { "id": "p03", "slug": "exclusive-boutique-store", "title": "Exclusive Boutique Store Design", "category": "Commercial", "projectType": "Retail", "location": "Chittagong", "style": "Timeless Luxury", "areaSqft": 1800, "year": 2024, "tone": "oak", "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80&auto=format&fit=crop", "featured": true, "summary": "For this high-end retail store, we created an immersive shopping experience using luxurious finishes.", "description": "Display joinery in pale oak, brushed brass rails and indirect lighting let the products lead. Fitting rooms are sized generously and lit for true colour." },
+      { "id": "p04", "slug": "sage-garden-villa", "title": "Sage Garden Villa", "category": "Residential", "projectType": "Villa", "location": "Bashundhara, Dhaka", "style": "Timeless Luxury", "areaSqft": 6200, "year": 2025, "tone": "sage", "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A three-storey villa with soft green accents and a double-height living hall.", "description": "Stone floors, linen curtains and quiet greens connect the interior to the garden. The double-height hall is lit by a sculptural pendant that anchors the staircase." },
+      { "id": "p05", "slug": "skyline-penthouse", "title": "Skyline Penthouse", "category": "Residential", "projectType": "Penthouse", "location": "Gulshan, Dhaka", "style": "Modern Contemporary", "areaSqft": 3800, "year": 2024, "tone": "dusk", "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A top-floor residence arranged around the skyline with an entertaining kitchen and bar.", "description": "Furniture sits low to protect the view. A long island joins the kitchen and dining area, and a dark joinery bar anchors the terrace doors." },
+      { "id": "p06", "slug": "sand-duplex-home", "title": "Sand Duplex Home", "category": "Residential", "projectType": "Duplex", "location": "Uttara, Dhaka", "style": "Warm Minimal", "areaSqft": 3100, "year": 2024, "tone": "sand", "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "Two floors linked by a slim timber staircase and a shared light well.", "description": "Sandy plaster walls, pale oak joinery and a light well that pulls daylight to the lower floor give the duplex a single, calm identity." },
+      { "id": "p07", "slug": "oak-and-brass-cafe", "title": "Oak and Brass Cafe", "category": "Commercial", "projectType": "Cafe", "location": "Agrabad, Chittagong", "style": "Warm Contemporary", "areaSqft": 1400, "year": 2025, "tone": "oak", "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A neighbourhood cafe with a long oak counter, brass details and soft pendant lighting.", "description": "Seating is mixed so the room works for solo laptops and group catch-ups. The counter is the centrepiece and the lighting stays warm all day." },
+      { "id": "p08", "slug": "clay-restaurant", "title": "Clay Restaurant", "category": "Commercial", "projectType": "Restaurant", "location": "Dhanmondi, Dhaka", "style": "Modern Rustic", "areaSqft": 2900, "year": 2024, "tone": "clay", "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A 70-seat restaurant with textured plaster walls and an open kitchen pass.", "description": "Textured clay-tone plaster, cushioned banquettes and low pendants create a warm room that stays comfortable at full capacity." },
+      { "id": "p09", "slug": "quiet-bungalow", "title": "Quiet Bungalow", "category": "Residential", "projectType": "Bungalow", "location": "Khulshi, Chittagong", "style": "Timeless Luxury", "areaSqft": 4500, "year": 2023, "tone": "stone", "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A single-storey home with a deep veranda and rooms that open to the garden.", "description": "Cross-ventilation, deep eaves and natural stone keep the bungalow cool. Every principal room has a direct view of the garden." },
+      { "id": "p10", "slug": "studio-beauty-parlour", "title": "Studio Beauty Parlour", "category": "Commercial", "projectType": "Beauty parlour", "location": "Gulshan, Dhaka", "style": "Modern Contemporary", "areaSqft": 1200, "year": 2024, "tone": "sage", "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A bright salon with mirror-lit stations, private treatment rooms and a calm waiting lounge.", "description": "Mirror-lit stations, easy-clean surfaces and a soft sage palette keep the salon practical and relaxing." },
+      { "id": "p11", "slug": "midnight-study", "title": "Midnight Study", "category": "Residential", "projectType": "Home", "location": "Panchlaish, Chittagong", "style": "Modern Classic", "areaSqft": 450, "year": 2023, "tone": "dusk", "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A deep-toned study with floor-to-ceiling shelving and a built-in desk.", "description": "A dark, enveloping palette with warm task lighting makes the study a room you want to stay in. Shelving reaches the ceiling and hides the cabling." },
+      { "id": "p12", "slug": "corporate-reception-suite", "title": "Corporate Reception Suite", "category": "Commercial", "projectType": "Office", "location": "Motijheel, Dhaka", "style": "Timeless Luxury", "areaSqft": 3300, "year": 2023, "tone": "stone", "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80&auto=format&fit=crop", "featured": false, "summary": "A reception and boardroom suite that sets the tone for an investment firm.", "description": "Stone, walnut and quiet lighting give the suite weight without feeling cold. The boardroom seats sixteen and doubles as a presentation space." }
+    ]
+  },
+  "testimonials": [
+    { "id": "t1", "name": "Dhymash Mohammed", "role": "CEO of a tech company", "quote": "The design delivered far exceeded our expectations. The team was professional and really understood our taste and needs. Every detail was executed perfectly.", "initials": "DM", "tone": "stone", "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=75&auto=format&fit=crop" },
+    { "id": "t2", "name": "Nusrat Sultana", "role": "Villa owner, Dhaka", "quote": "They kept us informed at every stage and delivered on the agreed date. The finishing is the best we have seen in our family.", "initials": "NS", "tone": "sand", "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=75&auto=format&fit=crop" },
+    { "id": "t3", "name": "Rafiq Ahmed", "role": "Restaurant owner, Chittagong", "quote": "Our guests keep asking who designed the room. It looks luxurious, and it is easy for our staff to work in.", "initials": "RA", "tone": "oak", "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=75&auto=format&fit=crop" }
+  ],
+  "about": {
+    "intro": "We are a Bangladeshi interior design studio that turns ordinary rooms into calm, well-made spaces.",
+    "image": {
+      "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80&auto=format&fit=crop",
+      "tone": "sand",
+      "alt": "Lavish Interiors design team reviewing a material board"
+    },
+    "tabs": [
+      { "id": "story", "title": "Our story", "heading": "Designing homes since 2017", "body": "Lavish Interiors began as a two-person studio in Dhaka and has grown into a team of designers, engineers and site supervisors working across Dhaka and Chittagong.\n\nWe stay small enough to know every project by name, and organised enough to deliver on schedule.", "bullets": ["Founded in Dhaka in 2017", "Team of designers, engineers and site supervisors", "Projects in Dhaka and Chittagong"] },
+      { "id": "approach", "title": "Our approach", "heading": "Design that starts with your routine", "body": "We begin by learning how you live or work, then plan the space around that. Materials are chosen to age well and be easy to maintain.\n\nEvery project follows the same four steps, so you always know what comes next.", "bullets": ["Fixed quotation before work begins", "Weekly progress updates", "Single point of contact"] },
+      { "id": "why", "title": "Why Lavish", "heading": "Craft you can see and a process you can trust", "body": "Our own workshop partners build joinery to drawing, and our supervisors check every stage before the next trade starts.\n\nWe inspect the finished space with you and fix every snag before handover.", "bullets": ["Quality-checked joinery", "On-site supervision", "Post-handover support"] }
+    ],
+    "values": [
+      { "title": "Considered materials", "text": "We choose finishes for how they look in five years, not only on day one." },
+      { "title": "Honest budgets", "text": "Quotes are itemised, and changes are agreed with you before they are made." },
+      { "title": "Reliable delivery", "text": "A named supervisor and a dated plan for every project." }
+    ]
+  },
+  "blog": [
+    { "id": "b1", "slug": "small-apartment-storage-ideas", "title": "Eight storage ideas that make a small apartment feel larger", "date": "2026-09-18", "readMin": 5, "tone": "sand", "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&q=75&auto=format&fit=crop", "excerpt": "Built-in storage, clear sightlines and lighter finishes do more for a small home than another piece of furniture.", "body": ["Small apartments rarely lack style. They lack places to put things. The fastest way to make a compact home feel bigger is to move everyday items out of sight.", "Start with full-height wardrobes and a bench with storage in the entry. Use the space under beds and window seats, and keep the floor clear so the eye reads more area.", "Finally, choose a limited palette. Light walls, matching joinery and consistent flooring make the rooms read as one continuous space."] },
+    { "id": "b2", "slug": "choosing-lighting-for-living-rooms", "title": "How to choose lighting for a living room", "date": "2026-08-30", "readMin": 4, "tone": "oak", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=75&auto=format&fit=crop", "excerpt": "Layer ambient, task and accent light, and put each layer on its own switch.", "body": ["A single ceiling light flattens a room. Good living rooms use three layers: ambient light for general use, task light for reading, and accent light for walls and artwork.", "Warm white at about 2700K to 3000K suits evening living spaces. Put every layer on its own switch or dimmer so the room can change from daytime to movie night.", "Plan the lighting before the furniture. Wiring is easy to change on paper and expensive to change after the walls are finished."] },
+    { "id": "b3", "slug": "office-design-for-focus", "title": "Office design that helps people focus", "date": "2026-08-12", "readMin": 6, "tone": "stone", "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=75&auto=format&fit=crop", "excerpt": "Acoustics, zoning and daylight matter more than the desk layout.", "body": ["Open offices fail when everything happens in one noisy room. Separate focus areas from collaboration areas and give each its own acoustic treatment.", "Place quiet desks away from kitchens and meeting rooms, and keep at least one small room free for calls.", "Finally, give people daylight. Placing desks near windows and meeting rooms in the core improves comfort for the whole team."] },
+    { "id": "b4", "slug": "materials-for-humid-climates", "title": "Materials that last in Bangladesh's humid climate", "date": "2026-07-25", "readMin": 5, "tone": "sage", "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=75&auto=format&fit=crop", "excerpt": "Moisture-resistant boards, sealed stone and good ventilation protect interiors for years.", "body": ["Humidity is the biggest test for interior materials in Bangladesh. Choose moisture-resistant boards for kitchens and bathrooms, and seal natural stone properly.", "Veneered or laminated surfaces on marine-grade plywood hold up far better than standard boards.", "Ventilation matters as much as material. Plan air flow in wardrobes and bathrooms so moisture can leave."] },
+    { "id": "b5", "slug": "how-to-brief-an-interior-designer", "title": "How to brief an interior designer", "date": "2026-07-04", "readMin": 4, "tone": "dusk", "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=75&auto=format&fit=crop", "excerpt": "A clear brief saves weeks. Here is what to prepare before the first meeting.", "body": ["Bring your floor plan, a rough budget range and photos of rooms you like. Tell us who lives in the space and what annoys you about it today.", "List the must-haves and the nice-to-haves separately. This helps us protect the things that matter most when costs change.", "Finally, share your timeline. Moving dates and events decide how we schedule procurement and site work."] },
+    { "id": "b6", "slug": "timeless-luxury-palette", "title": "Building a timeless luxury palette", "date": "2026-06-15", "readMin": 5, "tone": "clay", "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=75&auto=format&fit=crop", "excerpt": "Neutral bases, one natural material and a few deep accents age better than trends.", "body": ["Timeless interiors start with a quiet base: warm whites, stone and soft greys. They let materials and light do the talking.", "Add one natural material such as oak or marble, and repeat it in a few places so the room feels deliberate.", "Keep bold colours in cushions, art and accessories. They are the easiest things to change later."] }
+  ],
+  "contact": {
+    "projectTypes": ["Home design", "Duplex design", "Villa design", "Bungalow design", "Penthouse design", "Office design", "Restaurant or cafe design", "Other"],
+    "budgets": ["Under 10 lakh", "10 – 25 lakh", "25 – 50 lakh", "50 lakh and above"],
+    "title": "Tell us about your space",
+    "text": "Share a few details and a designer will call you within one working day.",
+    "success": { "title": "Request received", "text": "Thank you. A designer will call you within one working day." }
+  },
+  "cta": { "title": "Let's design a space you will love coming home to", "text": "Book a free consultation and we will visit your site." },
+  "footer": {
+    "columns": [
+      { "title": "Studio", "links": [ { "label": "Home", "href": "/interior" }, { "label": "Services", "href": "/interior/services" }, { "label": "Portfolio", "href": "/interior/portfolio" }, { "label": "About", "href": "/interior/about" }, { "label": "Blog", "href": "/interior/blog" } ] },
+      { "title": "Services", "links": [ { "label": "Home design", "href": "/interior/services/home-interior-design" }, { "label": "Villa design", "href": "/interior/services/villa-interior-design" }, { "label": "Duplex design", "href": "/interior/services/duplex-interior-design" }, { "label": "Office design", "href": "/interior/services/office-interior-design" } ] }
+    ],
+    "legal": [ { "label": "Privacy policy", "href": "#" }, { "label": "Terms", "href": "#" } ]
+  }
+}

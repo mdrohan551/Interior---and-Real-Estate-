@@ -1,0 +1,69 @@
+services:
+  # Next.js Fullstack Web Application
+  app:
+    build:
+      context: .
+      dockerfile: ${BACKEND_DOCKERFILE:-Dockerfile.prod}
+    container_name: ${CONTAINER_NAME:-samirimperia_app}
+    ports:
+      - "${APP_PORT:-3005}:3000"
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=${APP_ENV:-production}
+      - DB_HOST=${DB_HOST:-db}
+      - DB_PORT=${DB_PORT:-5432}
+      - DB_USER=${DB_USER:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-samirimperia_db_pass}
+      - DB_NAME=${DB_NAME:-samirimperia_db}
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+    networks:
+      - default
+      - proxy
+
+  # PostgreSQL Database Service
+  db:
+    image: postgres:16-alpine
+    container_name: ${DB_CONTAINER_NAME:-samirimperia_db}
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-samirimperia_db_pass}
+      POSTGRES_DB: ${DB_NAME:-samirimperia_db}
+    ports:
+      - "${DB_EXTERNAL_PORT:-5445}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${DB_USER:-postgres} -d $${DB_NAME:-samirimperia_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # Adminer Database Dashboard Container
+  adminer:
+    image: adminer:latest
+    container_name: ${ADMINER_CONTAINER_NAME:-samirimperia_adminer}
+    env_file:
+      - .env
+    ports:
+      - "${ADMINER_PORT:-8095}:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  proxy:
+    external: true

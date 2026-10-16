@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "./interior/interior.css";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  /* Real Estate: Nordic minimal */
+  --color-paper: #f4f1ea;
+  --color-ink: #2a2a28;
+  --color-stone: #b9b5aa;
+  --color-mist: #e6e2d9;
+
+  /* Interior: bold and warm (legacy – kept for backward compat) */
+  --color-cream: #f9f7f2;
+  --color-charcoal: #1a1a1a;
+  --color-terra: #b85c49;
+
+  /* Interior v2: teal + gold brand palette */
+  --color-lv-teal: #0f3347;
+  --color-lv-gold: #c9a84c;
+  --color-lv-ink: #0f1f2b;
+  --color-lv-muted: #6b7a85;
+  --color-lv-bg: #f9f7f2;
+  --color-lv-dark: #0a1820;
+
+  /* Marquee animations */
+  --animate-marquee: marquee 32s linear infinite;
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Interior marquee (longer, teal-gold) */
+  --animate-lv-marquee: lv-marquee 40s linear infinite;
+
+  @keyframes lv-marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Interior float */
+  @keyframes lv-float {
+
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  /* Interior shimmer */
+  @keyframes lv-shimmer {
+    from {
+      background-position: -200% center;
+    }
+
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  /* Interior pulse ring */
+  @keyframes lv-pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+
+    100% {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+}
+
+@font-face {
+  font-family: 'Waldenburg';
+  src: url('/fonts/kmr-waldenburg.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KMR Waldenburg';
+  src: url('/fonts/kmr-waldenburg.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.real-estate-root,
+.real-estate-root button,
+.real-estate-root input,
+.real-estate-root select,
+.real-estate-root textarea {
+  font-family: 'Waldenburg', 'KMR Waldenburg', var(--font-waldenburg), 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .animate-marquee,
+  .animate-lv-marquee {
+    animation: none;
+  }
+}
+
+/* Hide default browser scrollbars site-wide while retaining full scroll functionality */
+html,
+body,
+* {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html,
+body {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+*::-webkit-scrollbar,
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}

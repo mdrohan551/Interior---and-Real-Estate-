@@ -1,0 +1,199 @@
+/*
+  Interior theme (Tailwind v4).
+  Imported once from globals.css:  @import "./interior/interior.css";
+  Everything is prefixed with lv- so it never clashes with the Real Estate theme.
+*/
+
+@theme {
+  --font-lv: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-lv-ink: #1c1c1b;
+  --color-lv-mute: #8a8a86;
+  --color-lv-line: #e8e8e5;
+  --color-lv-panel: #f4f4f2;
+  --color-lv-deep: #75757a;
+  --color-lv-brass: #9c8660;
+
+  --ease-lv: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-lv-fade: lv-fade 0.8s var(--ease-lv) both;
+  --animate-lv-pop: lv-pop 0.7s var(--ease-lv) both;
+  --animate-lv-rise: lv-rise 0.9s var(--ease-lv) both;
+  --animate-lv-ping: lv-ping 2.4s cubic-bezier(0, 0, 0.2, 1) infinite;
+  --animate-lv-scroll: lv-scroll 2s var(--ease-lv) infinite;
+  --animate-lv-draw: lv-draw 0.9s 0.15s var(--ease-lv) both;
+
+  @keyframes lv-fade {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes lv-pop {
+    from {
+      opacity: 0;
+      transform: translateY(14px) scale(0.96);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes lv-rise {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes lv-ping {
+    0% {
+      transform: scale(1);
+      opacity: 0.45;
+    }
+
+    80%,
+    100% {
+      transform: scale(2.1);
+      opacity: 0;
+    }
+  }
+
+  @keyframes lv-scroll {
+    0% {
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+
+    50% {
+      transform: scaleY(1);
+      transform-origin: top;
+    }
+
+    51% {
+      transform: scaleY(1);
+      transform-origin: bottom;
+    }
+
+    100% {
+      transform: scaleY(0);
+      transform-origin: bottom;
+    }
+  }
+
+  @keyframes lv-draw {
+    from {
+      stroke-dashoffset: 30;
+    }
+
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+
+/* Fluid layout helper: full-width across any device (no rigid max-width / container clamp) */
+@utility lv-wrap {
+  width: 100%;
+  max-width: none;
+  padding-inline: 1.25rem;
+  margin-inline: auto;
+
+  @media (min-width: 768px) {
+    padding-inline: 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-inline: 3rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding-inline: 4rem;
+  }
+}
+
+@utility lv-full {
+  width: 100%;
+  padding-inline: 2.5rem;
+}
+
+@utility lv-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@utility lv-display {
+  font-size: clamp(2.5rem, 5.4vw, 5rem);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+}
+
+@utility lv-h2 {
+  font-size: clamp(1.75rem, 3.3vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+@utility lv-h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+/* The only raw CSS: base resets scoped to the Interior root */
+@layer base {
+  .interior-root {
+    font-family: var(--font-lv);
+    background: #fff;
+    color: var(--color-lv-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    position: relative;
+  }
+
+  .interior-root ::selection {
+    background: var(--color-lv-ink);
+    color: #fff;
+  }
+
+  .interior-root :focus-visible {
+    outline: 2px solid var(--color-lv-ink);
+    outline-offset: 3px;
+  }
+
+  .interior-root button {
+    cursor: pointer;
+  }
+
+
+
+  /* Global background grid across all pages without box borders - 0.05 opacity */
+  .lv-global-grid {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+      linear-gradient(to right, #475569 1px, transparent 1px),
+      linear-gradient(to bottom, #475569 1px, transparent 1px);
+    background-size: 20px 30px;
+    opacity: 0.01;
+  }
+}
